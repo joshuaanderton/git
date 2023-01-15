@@ -32,7 +32,8 @@ Once work requirements have been **_well documented_** (template coming soon...)
 5. Pull Request is created
 6. Branch off of PR branch to make any suggested changes
 7. Upon approval, PR is squash-and-merged into `staging`
-8. 
+8. Testing on staging
+9. Merge to master (and deploy to prod)
 
 
 **Every single pull request** - be that a bug/hot fix, a new feature, enhancements/refactoring, etc. - should be broken up into small, easily-reviewable working branches.
