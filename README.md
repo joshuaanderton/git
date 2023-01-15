@@ -20,7 +20,7 @@ I want to clarify that every team is different.
 Those steps alone will save your team a TON of grief. For example:
 - Less prematurely-merged changes to `staging` (which tend to mess up everyone's productivity)
 - Virtually no (if set up correctly) unwanted deploys to prod (I probably don't need to explain why...)
-- Mega-readable Git history for `staging` branch (via [rebase](/joshuaanderton/git/blob/master/how-tos/rebase.md) & squash-and-merge)
+- Mega-readable Git history for `staging` branch (via [rebase](how-tos/rebase.md) & squash-and-merge)
 
 ### Developer Workflow
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
