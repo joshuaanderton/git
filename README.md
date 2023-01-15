@@ -5,7 +5,7 @@ I want to clarify that every team is different.
 
 ### Setup
 1. Assign branch protection rules
-  - Assign rules to `staging` and `master` branches ([view template](/joshuaanderton/git/blob/master/branch-protection-rules.md))
+  - Assign rules to `staging` and `master` branches ([view template](branch-protection-rules.md))
 2. Create and trigger GitHub Actions (via GitHub Actions, GitLab Circle CI, etc.)
   - Code Linting
   - Style & Dependency checks
