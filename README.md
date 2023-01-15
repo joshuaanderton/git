@@ -1,4 +1,4 @@
-# Git Workflow for SaaS teams...
+# Git workflow for dev teams
 **The following is a set of tips, settings, and tools, that make up the best team Git worklow I've used working with several different SaaS teams and dev shops.**
 
 I want to clarify that every team is different.
