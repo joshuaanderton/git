@@ -32,9 +32,9 @@ Once work requirements have been **_well documented_** (template coming soon...)
 3. When work is done, prep for PR by cleaning commit history via [interactive rebase](how-tos/rebase-interactive.md) (to make code easier to review)
 4. Submit Pull Request and begin code review
 5. Upon approval:
-  a. _Rebase on to_ `staging` and force-push (`git push -f`)
-  b. PR is squash-and-merged into `staging`
-  c. Delete branch
+  1. _Rebase on to_ `staging` and force-push (`git push -f`)
+  2. PR is squash-and-merged into `staging`
+  3. Delete branch
 6. Testing on `staging`
 7. Branch off of `staging` to address any issues (repeating **Single-branch Developer Workflow**)
 8. Merge to master (and deploy to prod)
