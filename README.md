@@ -32,23 +32,23 @@ Once work requirements have been **_well documented_** (template coming soon...)
 3. When work is done, prep for PR by cleaning commit history via [interactive rebase](how-tos/rebase-interactive.md) (to make code easier to review)
 4. Submit Pull Request and begin code review
 5. Upon approval:
-  1. _Rebase on to_ `staging` and force-push (`git push -f`)
-  2. PR is squash-and-merged into `staging`
-  3. Delete branch
+- _Rebase on to_ `staging` and force-push (`git push -f`)
+- PR is squash-and-merged into `staging`
+- Delete branch
 6. Testing on `staging`
 7. Branch off of `staging` to address any issues (repeating **Single-branch Developer Workflow**)
 8. Merge to master (and deploy to prod)
 
 #### Multi-branch Developer Workflow (e.g. bigger projects that are not easily-reviewable as one PR)
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
-0. Break assignment into tasks in a GH Issue (or similar). Each task will have it's own working branch.
-0. First working branch will branch off of `staging`, second branch off of first branch, etc.
-0. When a working branch is ready for review, prep for PR by cleaning commit history via [interactive rebase](how-tos/rebase-interactive.md) (to make code easier to review)
-0. Submit Pull Request and begin code review
-0. Upon approval:
-  0. _Rebase on to_ prior branch (or `staging` if on first branch) and force-push (`git push -f`)
-  0. PR is merged (squash-and-merged for less commits in history) into prior branch (or `staging` if on first branch)
-  0. Delete branch
-0. Once everything is merged and deployed to `staging`, do testing
-0. Branch off of `staging` to address any issues (using **Single-branch Developer Workflow**)
-0. Merge to master (and deploy to prod)
+1. Break assignment into tasks in a GH Issue (or similar). Each task will have it's own working branch.
+2. First working branch will branch off of `staging`, second branch off of first branch, etc.
+3. When a working branch is ready for review, prep for PR by cleaning commit history via [interactive rebase](how-tos/rebase-interactive.md) (to make code easier to review)
+4. Submit Pull Request and begin code review
+5. Upon approval:
+- _Rebase on to_ prior branch (or `staging` if on first branch) and force-push (`git push -f`)
+- PR is merged (squash-and-merged for less commits in history) into prior branch (or `staging` if on first branch)
+- Delete branch
+6. Once everything is merged and deployed to `staging`, do testing
+7. Branch off of `staging` to address any issues (using **Single-branch Developer Workflow**)
+8. Merge to master (and deploy to prod)
