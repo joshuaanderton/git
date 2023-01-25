@@ -8,8 +8,7 @@ Those steps alone will save your team a TON of grief. For example:
 
 Depending on the project/task (e.g. the type or scope size of work assigned, the size of the team, etc.) one of these options may work better. Of course, all of this should be iderated on to best suite your team's needs and preferred workflow (don't keep doing what isn't working and ***don't*** stop doing what is).
 
-_#### FIRST! Assign Branch Protection Rules
-Before you start implementing a new workflow, I'd recommend assigning protection rules to `staging` and `master` branches ([view template](branch-protection-rules.md))_
+_**FIRST! Assign Branch Protection Rules:** Before you start implementing a new workflow, I'd recommend assigning protection rules to `staging` and `master` branches ([view template](branch-protection-rules.md))_
 
 #### Single-branch Developer Workflow (e.g. bug fixes or enhancements with few changes, easily-reviewable as one PR)
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
