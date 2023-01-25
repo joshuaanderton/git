@@ -8,10 +8,10 @@ Those steps alone will save your team a TON of grief. For example:
 
 Depending on the project/task (e.g. the type or scope size of work assigned, the size of the team, etc.) one of these options may work better. Of course, all of this should be iderated on to best suite your team's needs and preferred workflow (don't keep doing what isn't working and ***don't*** stop doing what is).
 
-#### Branch Protection Rules
+## Branch Protection Rules
 Before you start implementing a new workflow, I'd recommend assigning protection rules to `staging` and `master` branches ([view templates](branch-protection-rules.md))
 
-#### Single-branch Developer Workflow (e.g. bug fixes or enhancements with few changes, easily-reviewable as one PR)
+## Single-branch Developer Workflow (e.g. bug fixes or enhancements with few changes, easily-reviewable as one PR)
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
 1. Plan task in a GH issue (or similar) for clarity, or incase another dev needs to take over later
 2. Branch off of `staging`
@@ -25,7 +25,7 @@ Once work requirements have been **_well documented_** (template coming soon...)
 7. Branch off of `staging` to address any issues (repeating **Single-branch Developer Workflow**)
 8. Merge to master (and deploy to prod)
 
-#### Multi-branch Developer Workflow (e.g. bigger projects that are not easily-reviewable as one PR)
+## Multi-branch Developer Workflow (e.g. bigger projects that are not easily-reviewable as one PR)
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
 1. Break assignment into tasks in a GH Issue (or similar). Each task will have it's own working branch.
 2. First working branch will branch off of `staging`, second branch off of first branch, etc.
