@@ -11,8 +11,12 @@ Depending on the project/task (e.g. the type or scope size of work assigned, the
 ## Branch Protection Rules
 Before you start implementing a new workflow, I'd recommend assigning protection rules to `staging` and `master` branches ([view templates](branch-protection-rules.md))
 
-## Single-branch Developer Workflow (e.g. bug fixes or enhancements with few changes, easily-reviewable as one PR)
-Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
+## Single-branch Developer Workflow
+
+**Example:**
+Bug fixes or enhancements with few changes, easily-reviewable as one PR.
+
+Once work requirements have been **_well documented_** ([view template](templates/requirements.md)), assigned dev will:
 1. Plan task in a GH issue (or similar) for clarity, or incase another dev needs to take over later
 2. Branch off of `staging`
 3. When work is done, prep for PR by cleaning commit history via [interactive rebase](how-tos/rebase-interactive.md) (to make code easier to review)
@@ -25,7 +29,11 @@ Once work requirements have been **_well documented_** (template coming soon...)
 7. Branch off of `staging` to address any issues (repeating **Single-branch Developer Workflow**)
 8. Merge to master (and deploy to prod)
 
-## Multi-branch Developer Workflow (e.g. bigger projects that are not easily-reviewable as one PR)
+## Multi-branch Developer Workflow
+
+**Example:**
+Bigger projects that should be broken up into multiple code reviews.
+
 Once work requirements have been **_well documented_** (template coming soon...), assigned dev will:
 1. Break assignment into tasks in a GH Issue (or similar). Each task will have it's own working branch.
 2. First working branch will branch off of `staging`, second branch off of first branch, etc.
